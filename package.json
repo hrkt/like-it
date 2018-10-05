@@ -1,0 +1,17 @@
+{
+  "name": "like-it",
+  "version": "1.0.0",
+  "description": "A simple like-it gathering app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hrkt",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}

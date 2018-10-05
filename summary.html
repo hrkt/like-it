@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>Like-it Gathering</title>
+    <link rel="stylesheet" href="/css/mystyle.css" type="text/css"/>
+  </head>
+  <body clss="dark">
+    <ul id="messages"></ul>
+
+    <div id="hearts" class="hearts">
+        <!-- <svg id="heart" class="heart" viewBox="0 0 32 29.6">
+            <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+        </svg> -->
+    </div>
+    <label id="sumLabel" class="sum">0</label>
+    <form action="">
+      <input id="m" autocomplete="off" /><button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/lodash.min.js"></script>
+    <script src="/js/anime.min.js"></script>
+    <script src="/js/app-summary.js"></script>
+  </body>
+</html>
